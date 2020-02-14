@@ -97,7 +97,6 @@ public class CalculadoraServidor extends Thread {
             CalculadoraServidor hilo = new CalculadoraServidor(newSocket);
             hilo.start();
         }
-        
         System.out.println("Terminado");
     }
 }
